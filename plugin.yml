@@ -1,0 +1,16 @@
+name: Content
+author: alvin0319
+main: Content\ContentPlugin
+version: 1.0.0
+api: 4.0.0
+
+commands:
+  컨텐츠:
+    description: 컨텐츠 명령어입니다.
+    permission: content.command
+  컨텐츠기록:
+    description: 컨텐츠기록 명령어입니다.
+
+permissions:
+  content.command:
+    default: op
